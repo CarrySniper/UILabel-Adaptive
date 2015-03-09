@@ -19,6 +19,7 @@
 		C51355981AAD242500041C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51355801AAD242500041C6B /* UIKit.framework */; };
 		C51355A01AAD242500041C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C513559E1AAD242500041C6B /* InfoPlist.strings */; };
 		C51355A21AAD242500041C6B /* UILabel__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51355A11AAD242500041C6B /* UILabel__________Tests.m */; };
+		C5D9122F1AAD253000004314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D9122E1AAD253000004314 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C513559D1AAD242500041C6B /* UILabel常用属性与实现自适应Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UILabel常用属性与实现自适应Tests-Info.plist"; sourceTree = "<group>"; };
 		C513559F1AAD242500041C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C51355A11AAD242500041C6B /* UILabel__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel__________Tests.m"; sourceTree = "<group>"; };
+		C5D9122D1AAD253000004314 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5D9122E1AAD253000004314 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C51355701AAD242500041C6B = {
 			isa = PBXGroup;
 			children = (
+				C5D9122D1AAD253000004314 /* ViewController.h */,
+				C5D9122E1AAD253000004314 /* ViewController.m */,
 				C51355821AAD242500041C6B /* UILabel常用属性与实现自适应 */,
 				C513559B1AAD242500041C6B /* UILabel常用属性与实现自适应Tests */,
 				C513557B1AAD242500041C6B /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D9122F1AAD253000004314 /* ViewController.m in Sources */,
 				C513558D1AAD242500041C6B /* AppDelegate.m in Sources */,
 				C51355891AAD242500041C6B /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				C51355A71AAD242500041C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C51355A81AAD242500041C6B /* Build configuration list for PBXNativeTarget "UILabel常用属性与实现自适应Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				C51355AA1AAD242500041C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

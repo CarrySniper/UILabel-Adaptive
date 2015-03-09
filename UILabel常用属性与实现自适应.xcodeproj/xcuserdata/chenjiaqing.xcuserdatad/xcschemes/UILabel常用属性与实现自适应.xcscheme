@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0510"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C51355781AAD242500041C6B"
+               BuildableName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.app"
+               BlueprintName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;"
+               ReferencedContainer = "container:UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C51355931AAD242500041C6B"
+               BuildableName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;Tests.xctest"
+               BlueprintName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;Tests"
+               ReferencedContainer = "container:UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C51355781AAD242500041C6B"
+            BuildableName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.app"
+            BlueprintName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;"
+            ReferencedContainer = "container:UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C51355781AAD242500041C6B"
+            BuildableName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.app"
+            BlueprintName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;"
+            ReferencedContainer = "container:UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C51355781AAD242500041C6B"
+            BuildableName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.app"
+            BlueprintName = "UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;"
+            ReferencedContainer = "container:UILabel&#x5e38;&#x7528;&#x5c5e;&#x6027;&#x4e0e;&#x5b9e;&#x73b0;&#x81ea;&#x9002;&#x5e94;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
