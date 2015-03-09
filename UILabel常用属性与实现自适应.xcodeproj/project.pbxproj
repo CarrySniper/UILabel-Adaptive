@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C513557D1AAD242500041C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C513557C1AAD242500041C6B /* Foundation.framework */; };
+		C513557F1AAD242500041C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C513557E1AAD242500041C6B /* CoreGraphics.framework */; };
+		C51355811AAD242500041C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51355801AAD242500041C6B /* UIKit.framework */; };
+		C51355871AAD242500041C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C51355851AAD242500041C6B /* InfoPlist.strings */; };
+		C51355891AAD242500041C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C51355881AAD242500041C6B /* main.m */; };
+		C513558D1AAD242500041C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C513558C1AAD242500041C6B /* AppDelegate.m */; };
+		C513558F1AAD242500041C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513558E1AAD242500041C6B /* Images.xcassets */; };
+		C51355961AAD242500041C6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51355951AAD242500041C6B /* XCTest.framework */; };
+		C51355971AAD242500041C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C513557C1AAD242500041C6B /* Foundation.framework */; };
+		C51355981AAD242500041C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51355801AAD242500041C6B /* UIKit.framework */; };
+		C51355A01AAD242500041C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C513559E1AAD242500041C6B /* InfoPlist.strings */; };
+		C51355A21AAD242500041C6B /* UILabel__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51355A11AAD242500041C6B /* UILabel__________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51355991AAD242500041C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51355711AAD242500041C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51355781AAD242500041C6B;
+			remoteInfo = "UILabel常用属性与实现自适应";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C51355791AAD242500041C6B /* UILabel常用属性与实现自适应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel常用属性与实现自适应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C513557C1AAD242500041C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C513557E1AAD242500041C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C51355801AAD242500041C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C51355841AAD242500041C6B /* UILabel常用属性与实现自适应-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UILabel常用属性与实现自适应-Info.plist"; sourceTree = "<group>"; };
+		C51355861AAD242500041C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C51355881AAD242500041C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C513558A1AAD242500041C6B /* UILabel常用属性与实现自适应-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel常用属性与实现自适应-Prefix.pch"; sourceTree = "<group>"; };
+		C513558B1AAD242500041C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C513558C1AAD242500041C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C513558E1AAD242500041C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C51355941AAD242500041C6B /* UILabel常用属性与实现自适应Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel常用属性与实现自适应Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51355951AAD242500041C6B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C513559D1AAD242500041C6B /* UILabel常用属性与实现自适应Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UILabel常用属性与实现自适应Tests-Info.plist"; sourceTree = "<group>"; };
+		C513559F1AAD242500041C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C51355A11AAD242500041C6B /* UILabel__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel__________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51355761AAD242500041C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513557F1AAD242500041C6B /* CoreGraphics.framework in Frameworks */,
+				C51355811AAD242500041C6B /* UIKit.framework in Frameworks */,
+				C513557D1AAD242500041C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51355911AAD242500041C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51355961AAD242500041C6B /* XCTest.framework in Frameworks */,
+				C51355981AAD242500041C6B /* UIKit.framework in Frameworks */,
+				C51355971AAD242500041C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51355701AAD242500041C6B = {
+			isa = PBXGroup;
+			children = (
+				C51355821AAD242500041C6B /* UILabel常用属性与实现自适应 */,
+				C513559B1AAD242500041C6B /* UILabel常用属性与实现自适应Tests */,
+				C513557B1AAD242500041C6B /* Frameworks */,
+				C513557A1AAD242500041C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C513557A1AAD242500041C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51355791AAD242500041C6B /* UILabel常用属性与实现自适应.app */,
+				C51355941AAD242500041C6B /* UILabel常用属性与实现自适应Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C513557B1AAD242500041C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C513557C1AAD242500041C6B /* Foundation.framework */,
+				C513557E1AAD242500041C6B /* CoreGraphics.framework */,
+				C51355801AAD242500041C6B /* UIKit.framework */,
+				C51355951AAD242500041C6B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51355821AAD242500041C6B /* UILabel常用属性与实现自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				C513558B1AAD242500041C6B /* AppDelegate.h */,
+				C513558C1AAD242500041C6B /* AppDelegate.m */,
+				C513558E1AAD242500041C6B /* Images.xcassets */,
+				C51355831AAD242500041C6B /* Supporting Files */,
+			);
+			path = "UILabel常用属性与实现自适应";
+			sourceTree = "<group>";
+		};
+		C51355831AAD242500041C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51355841AAD242500041C6B /* UILabel常用属性与实现自适应-Info.plist */,
+				C51355851AAD242500041C6B /* InfoPlist.strings */,
+				C51355881AAD242500041C6B /* main.m */,
+				C513558A1AAD242500041C6B /* UILabel常用属性与实现自适应-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C513559B1AAD242500041C6B /* UILabel常用属性与实现自适应Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C51355A11AAD242500041C6B /* UILabel__________Tests.m */,
+				C513559C1AAD242500041C6B /* Supporting Files */,
+			);
+			path = "UILabel常用属性与实现自适应Tests";
+			sourceTree = "<group>";
+		};
+		C513559C1AAD242500041C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C513559D1AAD242500041C6B /* UILabel常用属性与实现自适应Tests-Info.plist */,
+				C513559E1AAD242500041C6B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51355781AAD242500041C6B /* UILabel常用属性与实现自适应 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51355A51AAD242500041C6B /* Build configuration list for PBXNativeTarget "UILabel常用属性与实现自适应" */;
+			buildPhases = (
+				C51355751AAD242500041C6B /* Sources */,
+				C51355761AAD242500041C6B /* Frameworks */,
+				C51355771AAD242500041C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel常用属性与实现自适应";
+			productName = "UILabel常用属性与实现自适应";
+			productReference = C51355791AAD242500041C6B /* UILabel常用属性与实现自适应.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51355931AAD242500041C6B /* UILabel常用属性与实现自适应Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51355A81AAD242500041C6B /* Build configuration list for PBXNativeTarget "UILabel常用属性与实现自适应Tests" */;
+			buildPhases = (
+				C51355901AAD242500041C6B /* Sources */,
+				C51355911AAD242500041C6B /* Frameworks */,
+				C51355921AAD242500041C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C513559A1AAD242500041C6B /* PBXTargetDependency */,
+			);
+			name = "UILabel常用属性与实现自适应Tests";
+			productName = "UILabel常用属性与实现自适应Tests";
+			productReference = C51355941AAD242500041C6B /* UILabel常用属性与实现自适应Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51355711AAD242500041C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shikee;
+				TargetAttributes = {
+					C51355931AAD242500041C6B = {
+						TestTargetID = C51355781AAD242500041C6B;
+					};
+				};
+			};
+			buildConfigurationList = C51355741AAD242500041C6B /* Build configuration list for PBXProject "UILabel常用属性与实现自适应" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C51355701AAD242500041C6B;
+			productRefGroup = C513557A1AAD242500041C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51355781AAD242500041C6B /* UILabel常用属性与实现自适应 */,
+				C51355931AAD242500041C6B /* UILabel常用属性与实现自适应Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51355771AAD242500041C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51355871AAD242500041C6B /* InfoPlist.strings in Resources */,
+				C513558F1AAD242500041C6B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51355921AAD242500041C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51355A01AAD242500041C6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51355751AAD242500041C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C513558D1AAD242500041C6B /* AppDelegate.m in Sources */,
+				C51355891AAD242500041C6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51355901AAD242500041C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51355A21AAD242500041C6B /* UILabel__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C513559A1AAD242500041C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51355781AAD242500041C6B /* UILabel常用属性与实现自适应 */;
+			targetProxy = C51355991AAD242500041C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C51355851AAD242500041C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51355861AAD242500041C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C513559E1AAD242500041C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C513559F1AAD242500041C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51355A31AAD242500041C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C51355A41AAD242500041C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51355A61AAD242500041C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Prefix.pch";
+				INFOPLIST_FILE = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C51355A71AAD242500041C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Prefix.pch";
+				INFOPLIST_FILE = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C51355A91AAD242500041C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UILabel常用属性与实现自适应.app/UILabel常用属性与实现自适应";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UILabel常用属性与实现自适应Tests/UILabel常用属性与实现自适应Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C51355AA1AAD242500041C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UILabel常用属性与实现自适应.app/UILabel常用属性与实现自适应";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabel常用属性与实现自适应/UILabel常用属性与实现自适应-Prefix.pch";
+				INFOPLIST_FILE = "UILabel常用属性与实现自适应Tests/UILabel常用属性与实现自适应Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51355741AAD242500041C6B /* Build configuration list for PBXProject "UILabel常用属性与实现自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51355A31AAD242500041C6B /* Debug */,
+				C51355A41AAD242500041C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51355A51AAD242500041C6B /* Build configuration list for PBXNativeTarget "UILabel常用属性与实现自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51355A61AAD242500041C6B /* Debug */,
+				C51355A71AAD242500041C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51355A81AAD242500041C6B /* Build configuration list for PBXNativeTarget "UILabel常用属性与实现自适应Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51355A91AAD242500041C6B /* Debug */,
+				C51355AA1AAD242500041C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51355711AAD242500041C6B /* Project object */;
+}
